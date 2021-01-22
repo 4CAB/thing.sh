@@ -17,6 +17,10 @@ sudo systemctl disable lightdm.service
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
+sudo pip3 install requests
+sudo pip3 install lxml
+sudo pip3 install bs4
+https://github.com/4CAB/thing.git
 sudo apt install nautilus nano -y 
 sudo adduser Mafius chrome-remote-desktop
 } &> /dev/null &&
